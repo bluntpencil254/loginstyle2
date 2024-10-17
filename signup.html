@@ -13,8 +13,8 @@
             <img src="images/bg1.jpg" alt="login image" class="login_img">
             <form action="" class="login_form">
                 <div>
-                    <h1 class="login_title">WELCOME</h1>
-                    <p class="login_description">Welcome! Log In to ontinue.</p>
+                    <h1 class="login_title">Hello Guest</h1>
+                    <p class="login_description">Sign up to enjoy all features of our</p>
                 </div>
                 <div>
                     <div class="login_inputs">
@@ -30,6 +30,16 @@
                                 required class="login_input" id="input-pass">
                                 <i class="ri-eye-off-line login_eye" id="input-icon"></i>
                             </div>
+                            
+                        </div>
+                        <div>
+                            <label for="input-pass" class="login_label" >Confirm Password:</label>
+                            <div class="login_box">
+                                <input type="password" placeholder="Enter your password"
+                                required class="login_input" id="input-pass">
+                                <i class="ri-eye-off-line login_eye" id="input-icon"></i>
+                            </div>
+                            
                         </div>
                     </div>
                     <div class="login_check">
@@ -40,9 +50,9 @@
                 <div>
                     <div class="login_buttons">
                         <button class="login_button" onclick="logInNow()">Log In</button>
-                        <button class="login_button login_button-ghost" onclick="signUpNow()" id="signUp">Sign Up</button>
+                        <button class="login_button login_button-ghost">Sign Up</button>
                     </div>
-                    <a href="resetpass.html" class="login_forgot">Forgot Password?</a>
+                    <a href="#" class="login_forgot">Forgot Password?</a>
                 </div>
             </form>
         </div>

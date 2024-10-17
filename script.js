@@ -16,3 +16,12 @@ const showHIddenPass = (inputPass, inputIcon) =>{
 }
 
 showHIddenPass('input-pass', 'input-icon')
+
+function signUpNow() {
+    window.location.href = 'signup.html'
+}
+
+function logInNow() {
+    window.location.href = 'index.html'
+}
+
